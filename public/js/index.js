@@ -5,7 +5,8 @@ $(".order-button").on("click", function(){
   var settings = {
     "async": true,
     "crossDomain": true,
-    "url": "https://secret-plateau-65736.herokuapp.com/api/dishes",
+    // "url": "https://secret-plateau-65736.herokuapp.com/api/dishes",
+    "url": "https://protected-stream-30236.herokuapp.com/api/dishes",
     // "url": "http://localhost:3000/api/dishes",
     "method": "GET",
     "processData": false,
