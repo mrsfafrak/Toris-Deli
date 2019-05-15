@@ -1,0 +1,167 @@
+
+.menu-title{
+  background: black;
+  color: white;
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu-title h1 {
+  font-size: 6rem;
+}
+
+.menu{
+  display: block;
+  width: 80%;
+  height:100%;
+  margin: -2rem auto 2rem;
+}
+
+.menu-wrap{
+  height:100%;
+  width:100%;
+  padding-bottom:35px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#card-wrap{
+  margin-top:.5rem;
+  align-content: center;
+  border-width:5px;  
+  border-style: groove;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 5px 15px 23px #777;
+  border: 1px solid black;
+  display: inline-block;
+  margin: .75rem;
+
+}
+.card:hover{
+  font-weight: 850;
+}
+
+.card img{
+  height:250px;
+  width: 100%;
+}
+
+.card-title {
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+.card-text {
+  font-family: 'Roboto', sans-serif;
+}
+
+.queued-orders {
+  padding:0;
+ 
+}
+
+.list-group-item{
+  margin: .25rem;
+  border-style: double;
+  border-width: 5px;
+  border-color: black;
+}
+ 
+.carousel.carousel-fade .carousel-item {
+  display: block;
+  opacity: 0;
+  transition: opacity ease-out 3s;
+  width: 100%
+}
+
+.carousel.carousel-fade .carousel-item.active {
+  opacity: 1 !important;
+}
+
+.container-fluid {
+  margin-top: 1em;
+
+}
+.jumbotron {
+  background-image: url(deli1.jpg);
+  background-size: cover;
+  height: 300px;
+  margin: 2rem;
+}
+#jumboBody {
+  color: white;
+  background-color: black;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding: 1em;
+  border-style: double;
+  border-width: 5px;
+  border-color: white;
+}
+#jumboHeadline {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.carousel.carousel-fade .carousel-item {
+  display: block;
+  opacity: 0;
+  transition: opacity ease-out 5s;
+  width: 100%
+}
+
+.carousel.carousel-fade .carousel-item.active {
+  opacity: 1 !important;
+
+}
+
+.ordered-title {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.completed-orders li{
+  font-family: 'Roboto', sans-serif;
+}
+
+.modal-header {
+  text-align: center;
+  background: black;
+  color: white;
+
+}
+
+.modal-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2rem;
+  margin: 0 auto;
+
+}
+
+.ticket-font {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.75rem;
+
+}
+
+@media  (min-width: 1200px) {
+  .indexBlock {
+      z-index: 999;
+      position: absolute;
+      top: 25%;
+      left: 4rem;
+      width: 16rem;
+  }
+
+
+ 
+} 
